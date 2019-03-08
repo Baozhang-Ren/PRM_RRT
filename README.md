@@ -1,5 +1,5 @@
-# PRM_RRT
-Sampling-based Motion Planning Using PRM and RRT
+# Sampling-based Motion Planning Using PRM and RRT
+
 
 Computed a collision-free path for a rigid body (a piano) among static obstacles (a room) by implementing the Probabilistic Roadmap Method (PRM) as well as its asymptotically optimal variant
 (PRM∗).
