@@ -1,0 +1,14 @@
+<launch>
+
+  <include file="~/catkin_ws2/src/comprobfall2018-hw2/piano/piano_gazebo/world/environment_piano.world"/>
+
+  <!-- Here will go our python script that calls the Publisher -->
+  
+
+  <!-- Here will go our python script that calls the Client -->
+  <node pkg="robotics_ass2" type="piano_control.py" name="ass2_piano" output="screen">
+  </node>
+  
+  <!-- Here will go our python script that calls the Controllor -->
+
+</launch>

@@ -1,0 +1,12 @@
+<launch>
+
+  <include file="$(find ackermann_vehicle_gazebo)/launch/ackermann_vehicle.launch"/>
+
+  <!-- Here will go our python script that calls the Publisher -->
+  
+
+  <!-- Here will go our python script -->
+  <node pkg="robotics_ass2" type="robotics_ass2_client.py" name="ass2_client" output="screen">
+  </node>
+
+</launch>
